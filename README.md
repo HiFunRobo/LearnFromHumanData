@@ -1,5 +1,4 @@
-# LearnFromHumanData
-Paper list: VLA trained on egocentric data
+# VLA trained on egocentric data
 Papers are grouped by institution and sorted chronologically by the earliest paper in each group.
 ### 
 |Year|Org.|Acronym|Paper|Project|GitHub|EEF|Observations|Alignment|Model|Training|Eval|Comments|
@@ -16,10 +15,12 @@ Papers are grouped by institution and sorted chronologically by the earliest pap
 |2025.08| Tsinghua |Motiontrans| [Human vr data enable motion-level learning for robotic manipulation policies](https://arxiv.org/abs/2509.17759) | |[![GitHub](https://img.shields.io/github/stars/michaelyuancb/motiontrans)](https://github.com/michaelyuancb/motiontrans) ||||||
 |2026.02| Microsoft |VITRA| [Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos](https://arxiv.org/abs/2510.21571)|[![link](https://img.shields.io/badge/Website-9cf)](https://microsoft.github.io/VITRA/)|[![GitHub](https://img.shields.io/github/stars/microsoft/VITRA)](https://github.com/microsoft/VITRA)||||||
 
-
-### 
-Paper list: Egocentric data collection design
-|Year|Org.|Acronym|Paper|Project|GitHub|Cameras|Data processing|Comments|
+# Egocentric data collection methods and datasets
+|Year|Org.|Acronym|Paper|Project|GitHub|Scale|Cameras|Data processing|Comments|
 |----|----|-------|-----|-------|------|-------|---------------|--------|
-|2025.08| Apple |EgoDex| [Learning Dexterous Manipulation from Large-Scale Egocentric Video](https://arxiv.org/abs/2505.11709) | |[![GitHub](https://img.shields.io/github/stars/apple/ml-egodex)](https://github.com/apple/ml-egodex) ||
+|2022.03| HOI4D |AoE| [Introducing HOT3D: An Egocentric Dataset for 3D Hand and Object Tracking](https://arxiv.org/abs/2406.09598) || |4000seqs| | | |
+|2023.09| HoloAssist |AoE| [Introducing HOT3D: An Egocentric Dataset for 3D Hand and Object Tracking](https://arxiv.org/abs/2406.09598) |||166hrs| | | |
+|2024.01| HOT3D |Meta| [Introducing HOT3D: An Egocentric Dataset for 3D Hand and Object Tracking](https://arxiv.org/abs/2406.09598) |||52hrs| | ||
+|2024.03| TACO |AoE| [Introducing HOT3D: An Egocentric Dataset for 3D Hand and Object Tracking](https://arxiv.org/abs/2406.09598) |||2317seqs| | ||
+|2025.08| Apple |EgoDex| [Learning Dexterous Manipulation from Large-Scale Egocentric Video](https://arxiv.org/abs/2505.11709) | |[![GitHub](https://img.shields.io/github/stars/apple/ml-egodex)](https://github.com/apple/ml-egodex) |800hrs| | | |
 |2026.02| Ant Group |AoE| [Always-on Egocentric Human Video Collection for Embodied AI](https://arxiv.org/abs/2602.23893) |||Neck-mounted camera|Scene reconstruction, hand motion detection, etc.||
