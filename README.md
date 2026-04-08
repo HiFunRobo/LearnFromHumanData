@@ -13,13 +13,13 @@ Papers are grouped by institution and sorted chronologically by the earliest pap
 |2026.02| GIT, Nvidia |EgoScale| [Scaling Human Video to Unlock Dexterous Robot Intelligence](https://arxiv.org/abs/2602.16710) |[![link](https://img.shields.io/badge/Website-9cf)](https://research.nvidia.com/labs/gear/egoscale/) | ||||||
 |2025.07| UCSD |EgoVLA| [Learning Vision-Language-Action Models from Egocentric Human Videos](https://arxiv.org/abs/2507.12440) |[![link](https://img.shields.io/badge/Website-9cf)](https://rchalyang.github.io/EgoVLA/)|[![GitHub](https://img.shields.io/github/stars/quincy-u/Ego_Humanoid_Manipulation_Benchmark)](https://github.com/quincy-u/Ego_Humanoid_Manipulation_Benchmark) |human:hand; robo:hand|human:head cam; robo:head cam|unified action space + robo data finetune|VLM + action head|pretrain only on human data to unified action space + robo data finetune| |
 |2025.11| UCSD |In-N-On| [Scaling Egocentric Manipulation with in-the-wild and on-task Data](https://arxiv.org/pdf/2511.15704) |[![link](https://img.shields.io/badge/Website-9cf)](https://xiongyicai.github.io/In-N-On/)|[![GitHub](https://img.shields.io/github/stars/XiongyiCai/Human0)](https://github.com/XiongyiCai/Human0)|human:hand; robo:hand|||VLM + action head|pretrain on human and robo data to unified action space||Adversarial domain adaptation|
-|2025.08| Apple |EgoDex| [Learning Dexterous Manipulation from Large-Scale Egocentric Video](https://arxiv.org/abs/2505.11709) | |[![GitHub](https://img.shields.io/github/stars/apple/ml-egodex)](https://github.com/apple/ml-egodex) ||||||
 |2025.08| Tsinghua |Motiontrans| [Human vr data enable motion-level learning for robotic manipulation policies](https://arxiv.org/abs/2509.17759) | |[![GitHub](https://img.shields.io/github/stars/michaelyuancb/motiontrans)](https://github.com/michaelyuancb/motiontrans) ||||||
-|2026.02| Ant Group |AoE| [Always-on Egocentric Human Video Collection for Embodied AI](https://arxiv.org/abs/2602.23893) ||||||||
 |2026.02| Microsoft |VITRA| [Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos](https://arxiv.org/abs/2510.21571)|[![link](https://img.shields.io/badge/Website-9cf)](https://microsoft.github.io/VITRA/)|[![GitHub](https://img.shields.io/github/stars/microsoft/VITRA)](https://github.com/microsoft/VITRA)||||||
 
 
 ### 
-|Year|Org.|Acronym|Paper|Project|GitHub|EEF|Observations|Alignment|Model|Training|Eval|Comments|
-|----|------------|-------|-----|-------|-----------|------------|----|------------|---------|-----|-----|--------|
-|2026.02| Ant Group |AoE| [Always-on Egocentric Human Video Collection for Embodied AI](https://arxiv.org/abs/2602.23893) ||||||||
+Paper list: Egocentric data collection design
+|Year|Org.|Acronym|Paper|Project|GitHub|Cameras|Data processing|Comments|
+|----|----|-------|-----|-------|------|-------|---------------|--------|
+|2025.08| Apple |EgoDex| [Learning Dexterous Manipulation from Large-Scale Egocentric Video](https://arxiv.org/abs/2505.11709) | |[![GitHub](https://img.shields.io/github/stars/apple/ml-egodex)](https://github.com/apple/ml-egodex) ||
+|2026.02| Ant Group |AoE| [Always-on Egocentric Human Video Collection for Embodied AI](https://arxiv.org/abs/2602.23893) |||Neck-mounted camera|Scene reconstruction, hand motion detection, etc.||
